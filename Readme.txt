@@ -1,19 +1,22 @@
 
-Current version of Source contains  2 Projects,
+
+Current version of Source contains  3 Projects,
 
   1.EXTJS4FileUpload_Rest 
   2.EXTJS4FileUpload
+  3.EXTJS4FileUpload_Rest_Combined
 
 
 ** 'EXTJS4FileUpload_Rest' contains the Webservices used for file Uploading.
 
 ** 'EXTJS4FileUpload' to invoke the webservice which acts as a Webservice client.
 
-
 **  In 'EXTJS4FileUpload' project,Webservice call has been handled in FileUploadDAOImpl  Class.
  
 **  Below annotations has been handled in com.extjs.java.rest.webservice.RestFileUpload class of EXTJS4FileUpload_Rest project
    @Path("/send/{fileName}/{fileSize}")
+
+** In 'EXTJS4FileUpload_Rest_Combined' project which combines the webservice call and file upload webservice both.
 
 
 
@@ -34,5 +37,3 @@ Step 5 : If any issue occurs, Please change the java Class path of the project a
           2.Select the Build Path and Configure Build Path
           3.click the Library Tab and select JRE System Library
           4.Click the Edit Button and change the execution environment
-
-	            
