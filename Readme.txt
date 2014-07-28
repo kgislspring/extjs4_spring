@@ -12,7 +12,7 @@ Current version of Source contains  2 Projects,
 
 **  In 'EXTJS4FileUpload' project,Webservice call has been handled in FileUploadDAOImpl  Class.
  
-**  Below annotations has been handled in x class of EXTJS4FileUpload_Rest project
+**  Below annotations has been handled in com.extjs.java.rest.webservice.RestFileUpload class of EXTJS4FileUpload_Rest project
    @Path("/send/{fileName}/{fileSize}")
 
 
